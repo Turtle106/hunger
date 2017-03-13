@@ -50,7 +50,8 @@ function story() {
         if (randomNumberBetween0and3 === 3) {
             document.write(randTribute + death + "<br>");
             tributesLiving.splice(v, 1);
-        } else {
+	    var randomNumberBetween0and3 = Math.floor(Math.random() * 4);
+	    } else {
             document.write(randTribute + item + "<br>");
         }
     }
