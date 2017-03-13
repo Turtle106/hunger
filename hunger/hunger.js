@@ -81,8 +81,8 @@ function story() {
     
         if (tributesLiving.length === 1) {
             document.write(tributesLiving + " wins!");
+		document.write(<FORM><INPUT TYPE="button" onClick="history.go(0)" VALUE="New Story"></FORM>)
         }
-	document.write("<FORM><INPUT TYPE="button" onClick="history.go(0)" VALUE="Refresh"></FORM>");
     
     }
     
