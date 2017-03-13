@@ -82,7 +82,7 @@ function story() {
         if (tributesLiving.length === 1) {
             document.write(tributesLiving + " wins!");
         }
-	console.log("<A HREF="javascript:history.go(0)">REFRESH</A>");
+	document.write("<A HREF="javascript:history.go(0)">REFRESH</A>");
     
     }
     
