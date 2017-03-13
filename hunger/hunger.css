@@ -1,0 +1,15 @@
+.center {
+    text-align: center;
+    width: 100%;
+    background-color: gray;
+}
+
+h2 {
+    font-family: 'Shojumaru', cursive;
+    text-shadow: 1px 1px 1px gray;
+}
+
+body {
+    text-align: center;
+    background-color: darkgray;
+}
