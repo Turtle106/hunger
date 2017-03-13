@@ -27,7 +27,7 @@ function story() {
     
     document.write("<link rel='stylesheet' type='text/css' href='hunger.css'>");
     console.log("Log0: ", tributesLiving)
-    for (i=1; i <= 14; i++) {
+    for (i=1; i <= 24; i++) {
         var v = Math.floor(Math.random()*tributesLiving.length)
         var randTribute = tributesLiving[v];
         var randTribute2 = tributesLiving[Math.floor(Math.random()*tributesLiving.length)];
@@ -68,8 +68,8 @@ function story() {
             var randTribute3 = tributesLiving[Math.floor(Math.random()*tributesLiving.length)];
         }
     
-    var mortalReminders = [" falls off a cliff", " eats poisonous berries and dies", " is shot by " + randTribute2 +  " with a bow", " burns in a fire", " dies in an explosion", " is trampled by genetically altered rabid squirrels", " eats poisonous mushrooms", " unknowingly walks into a giant venus fly trap thinking it's a cave", " dies of sleep deprevation", " dies of thirst", " dies of infection", " walks into a high voltage forcefield", " dies inside a gaseous mist"];
-    var events = [" is sent medical supplies from an unknown sponsor", " is nearly killed by " + randTribute2, " finds a stream and collects water", " spies on " + randTribute2, " hides", " steals food from " + randTribute2, " befriends an army of squirrels", " catches a wild geodude", " finds a mech suit", " questions life", " eats pie", " resorts to cannibalism", " talks to a butterfly", " sleeps in a tree", " gets on the bad side of the capital", " starts hallucinating", " wonders what comes after life", " makes a makeshift spear", " treats wounds", " recieves a hatches from an unknown sponsor", " says: " + randTribute2 + ", there's a forcefield back there"];
+    var mortalReminders = [" falls off a cliff", " eats poisonous berries and dies", " is shot by " + randTribute2 +  " with a bow", " burns in a fire", " dies in an explosion", " is trampled by genetically altered rabid squirrels", " eats poisonous mushrooms", " unknowingly walks into a giant venus fly trap thinking it's a cave", " dies of sleep deprevation", " dies of thirst", " dies of infection", " walks into a high voltage forcefield", " dies inside a gaseous mist", " dies of exhaustion", " is killed by a rabid monkey", " is struck by lightning", " killed by a spontaneously forming tornado", " eats a tracker jacker next"];
+    var events = [" is sent medical supplies from an unknown sponsor", " is nearly killed by " + randTribute2, " finds a stream and collects water", " spies on " + randTribute2, " hides", " steals food from " + randTribute2, " befriends an army of squirrels", " catches a fever", " finds a mech suit", " questions life", " eats pie", " resorts to cannibalism", " talks to a butterfly", " sleeps in a tree", " gets on the bad side of the capital", " starts hallucinating", " wonders what comes after life", " makes a makeshift spear", " treats wounds", " recieves a hatchet from an unknown sponsor", " says: " + randTribute2 + ", there's a forcefield back there", " is mildly stung by a tracker jacker and starts hallucinating", " swears vengeance on the capital"];
         var randomNumberBetween0and6 = Math.floor(Math.random() * 7);
         var item = events[Math.floor(Math.random()*events.length)];
         var death = mortalReminders[Math.floor(Math.random()*mortalReminders.length)];
